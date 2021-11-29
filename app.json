@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "ISS-Tracker",
-    "slug": "ISS-Tracker",
+    "name": "Localizador-EEI",
+    "slug": "Localizador-EEI",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
