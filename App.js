@@ -12,12 +12,12 @@ const Stack = createStackNavigator();
 function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Home" screenOptions={{
+      <Stack.Navigator initialRouteName="Principal" screenOptions={{
         headerShown: false
       }}>
-        <Stack.Screen name="Home" component={HomeScreen} />
-        <Stack.Screen name="IssLocation" component={IssLocationScreen} />
-        <Stack.Screen name="Meteors" component={MeteorScreen} />
+        <Stack.Screen name="Principal" component={HomeScreen} />
+        <Stack.Screen name="UbicaciónEEI" component={IssLocationScreen} />
+        <Stack.Screen name="Meteoros" component={MeteorScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
